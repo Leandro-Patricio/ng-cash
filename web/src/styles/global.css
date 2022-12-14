@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  -webkit-font-soothing: antialiased;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"] {
+  -webkit-appearance: none;
+  margin: 0;
+}
